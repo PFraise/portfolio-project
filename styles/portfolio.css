@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 62px;
 }
 
 h3 {
@@ -37,6 +37,12 @@ p {
   line-height: 30px;
 }
 
+p.intro {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -159,7 +165,9 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
-
+.active {
+  color: var(--branding-color);
+}
 footer {
   margin: 60px 0;
 }
