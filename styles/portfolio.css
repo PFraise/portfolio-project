@@ -93,6 +93,7 @@ p.intro {
   }
   h1 {
     font-size: 44px;
+    text-align: center;
   }
   h2 {
     font-size: 44px;
@@ -106,6 +107,9 @@ p.intro {
   }
   h3 {
     font-size: 18px;
+  }
+  .karen {
+    text-align: center;
   }
 }
 
